@@ -1,0 +1,1 @@
+export const FORM_LOGIN_USER = 'FORM_LOGIN_USER'

@@ -1,0 +1,14 @@
+:root {
+  --ft-family: Avenir, sans-serif;
+  --fs-base-size: 1em;
+  
+  --fs-scale-ratio: 1.2;
+  --fs-xs: calc((1em / var(--fs-scale-ratio)) / var(--fs-scale-ratio));
+  --fs-sm: calc(var(--fs-xs) * var(--fs-scale-ratio));
+  --fs-md: calc(var(--fs-sm) * var(--fs-scale-ratio) * var(--fs-scale-ratio));
+  --fs-lg: calc(var(--fs-md) * var(--fs-scale-ratio));
+  --fs-xl: calc(var(--fs-lg) * var(--fs-scale-ratio));
+  --fs-xxl: calc(var(--fs-xl) * var(--fs-scale-ratio));
+  --fs-xxxl: calc(var(--fs-xxl) * var(--fs-scale-ratio));
+  --fs-xxxxl: calc(var(--fs-xxxl) * var(--fs-scale-ratio));
+}

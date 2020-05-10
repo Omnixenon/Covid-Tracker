@@ -1,0 +1,32 @@
+@import 'typography';
+
+//CDN
+$cdn-url: 'https://cdn.seunadesina.com';
+
+// Color
+$bg-primary: #000;
+$clr-primary: #fff;
+$clr-secondary: hsl(0, 0%, 95%);
+$clr-accent: hsl(349, 75%, 51%);
+$clr-links: #554;
+
+// Layout
+$ctr-width: 1100px;
+
+// Typography
+$ft-family: var(--ft-family, 'Avenir');
+$fs-base-size: var(--fs-base-size);
+$fs-xs: var(--fs-xs);
+$fs-sm: var(--fs-sm); 
+$fs-md: var(--fs-md); 
+$fs-lg: var(--fs-lg); 
+$fs-xl: var(--fs-xl); 
+$fs-xxl: var(--fs-xxl); 
+$fs-xxxl: var(--fs-xxxl); 
+$fs-xxxxl: var(--fs-xxxxl); 
+
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
