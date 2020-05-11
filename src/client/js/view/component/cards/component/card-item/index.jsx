@@ -14,7 +14,7 @@ const CardItem = ({ title, description, data, lastUpdate }) => {
           <Countup 
             start={0}
             end={data}
-            duration={2.5}
+            duration={2}
             separator=','
           />
         </Typography>
