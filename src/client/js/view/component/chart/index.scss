@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+
+  @include devices(mobile) {
+    width: 100%;
+  }
+
+  @include devices(tablet) {
+    width: 65%;
+  }
+}

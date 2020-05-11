@@ -2,10 +2,19 @@
 @import '~sanitize.css/forms.css';
 @import '~sanitize.css/typography.css';
 
+html,
 body {
-  background-color: $bg-primary;
-  font-family: $ft-family;
+  height: 100%;
+}
+
+body {
   font-size: $fs-base-size;
+  font-family: $ft-family;
+  background-color: $bg-primary;
+
+  #app {
+    height: 100%;
+  }
 
   @include devices(mobile) {
     // font-size: 1rem;
@@ -32,33 +41,40 @@ img {
 }
 
 button {
-  background-color:transparent; 
-  color: inherit; 
-  border-width: 0; 
-  padding: 0; 
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-width: 0;
   cursor: pointer;
 }
 
-figure { 
+figure {
   margin: 0;
 }
 
 input::-moz-focus-inner {
-  border: 0; 
-  padding: 0; 
   margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-ul, ol, dd {
-  margin: 0; 
-  padding: 0; 
+ul,
+ol,
+dd {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0; 
-  font-size: inherit; 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
   font-weight: inherit;
+  font-size: inherit;
 }
 
 p {
