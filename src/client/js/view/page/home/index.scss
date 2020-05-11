@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
 
   @include devices(mobile) {
     margin: 0 10%;
@@ -16,6 +15,14 @@
 
 .image_container {
   text-align: center;
+
+  @include devices(mobile) {
+    margin: 0 30px;
+  }
+
+  @include devices(tablet) {
+    padding: 0;
+  }
 }
 
 .image {

@@ -3,7 +3,7 @@
     margin: 2% 0 !important;
   }
 
-  @include devices(mobile) {
+  @include devices(tablet) {
     margin: 0 2% !important;
   }
 }
