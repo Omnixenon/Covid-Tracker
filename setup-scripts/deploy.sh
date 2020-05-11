@@ -12,9 +12,9 @@ function deployTerraform {
     -backend-config="key=${S3_TERRAFORM_STATE_KEY_PREFIX}/${SERVICE}/${STAGE}.tfstate" \
     -backend-config="region=${S3_TERRAFORM_STATE_REGION}" ${CWD}/infrastructure/terraform
 
-  terraform plan ${CWD}/infrastructure/terraform
+  # terraform plan ${CWD}/infrastructure/terraform
 
-  # terraform apply -auto-approve -no-color ${CWD}/infrastructure/terraform
+  terraform apply -auto-approve -no-color ${CWD}/infrastructure/terraform
 
   terraform output -json | jq 'with_entries(.value |= .value)' > ${CWD}/infrastructure/terraform-state.json
 }
