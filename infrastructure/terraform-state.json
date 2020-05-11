@@ -1,1 +1,5 @@
-{}
+{
+  "cloudfront_distribution_id": "E1HRSEI8VFPH4K",
+  "frontend_url": "covid.seunadesina.com",
+  "s3_bucket": "covid-assets20200511091502273400000002"
+}
